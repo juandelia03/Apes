@@ -38,7 +38,7 @@
           <br />
           <h1 class="roadUtility">ROADMAP</h1>
         </div>
-        <!-- <img :src="require('@/assets/Buey_Golden.svg')" class="bueyGolden" /> -->
+        <img :src="require('@/assets/Buey_Golden(1).png')" class="bueyGolden" />
       </div>
     </div>
     <div class="roadDiv">
@@ -125,7 +125,6 @@
         </div>
         <div class="allTraitsDiv">
           <h1 class="allTraits">VIEW ALL TRAITS</h1>
-          <p class="company">© Your Company Name / 2021</p>
         </div>
         <div class="icons">
           <div class="icoDs">
@@ -251,7 +250,8 @@ export default {};
   line-height: 20px;
   margin-top: 15px;
   font-size: 8px;
-  background-color: indianred;
+  background: rgb(244, 78, 107);
+  background: linear-gradient(90deg, rgba(244, 78, 107, 1) 2%, rgba(241, 153, 82, 1) 40%);
   border-radius: 5px;
   cursor: pointer;
 }
@@ -259,7 +259,7 @@ export default {};
   width: 160px;
   height: 210px;
   position: absolute;
-  bottom: -20px;
+  bottom: -0px;
   right: 0px;
 }
 .roadDiv {
@@ -500,15 +500,17 @@ export default {};
 .allTraitsDiv {
   display: flex;
   justify-content: center;
-  background-color: chocolate;
+  background: rgb(244, 78, 107);
+  background: linear-gradient(90deg, rgba(244, 78, 107, 1) 2%, rgba(241, 153, 82, 1) 40%);
+  border-radius: 20px;
   height: 20px;
   width: 85px;
   position: absolute;
-  top: 105px;
+  top: 110px;
 }
 .allTraits {
   font-family: "Lazer84";
-  font-size: 9px;
+  font-size: 8px;
   position: absolute;
   top: 5px;
 }
@@ -643,11 +645,11 @@ export default {};
   }
   .allTraitsDiv {
     height: 20px;
-    width: 105px;
-    top: 120px;
+    width: 90px;
+    top: 130px;
   }
   .allTraits {
-    font-size: 11px;
+    font-size: 8px;
   }
   .company {
     font-size: 8px;
@@ -740,12 +742,15 @@ export default {};
     font-size: 1.8vw;
   }
   .allTraitsDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 30px;
     width: 120px;
-    top: 130px;
+    top: 150px;
   }
   .allTraits {
-    font-size: 13px;
+    font-size: 10px;
     top: 7px;
   }
   .company {
@@ -862,7 +867,7 @@ export default {};
     top: 150px;
   }
   .allTraitsDiv {
-    top: 200px;
+    top: 230px;
   }
 
   .icons {
@@ -943,7 +948,7 @@ export default {};
     width: 250px;
     height: 280px;
     position: absolute;
-    bottom: -7px;
+    bottom: -0px;
     right: 0px;
   }
   .roadDiv {
@@ -984,7 +989,7 @@ export default {};
     top: 1455px;
   }
   .rarity {
-    top: 1590px;
+    top: 1520px;
   }
   .titleRarity {
     font-size: 2.8vw;
@@ -995,7 +1000,10 @@ export default {};
   .allTraitsDiv {
     height: 45px;
     width: 180px;
-    top: 252px;
+    top: 250px;
+  }
+  .bueyTrait {
+    top: 140px;
   }
   .allTraits {
     font-size: 19px;
@@ -1008,7 +1016,7 @@ export default {};
   .icons {
     height: 150px;
     width: 200px;
-    top: 410px;
+    top: 350px;
   }
   .icons1 {
     height: 20px;
@@ -1176,7 +1184,7 @@ export default {};
     width: 250px;
     height: 280px;
     position: absolute;
-    bottom: -7px;
+    bottom: -0px;
     right: 0px;
   }
   .roadDiv {
@@ -1251,13 +1259,13 @@ export default {};
     font-size: 1.5vw;
   }
   .allTraitsDiv {
-    top: 290px;
+    top: 320px;
   }
   .company {
     top: 73px;
   }
   .icons {
-    top: 420px;
+    top: 410px;
   }
 }
 @media (min-width: 1920px) {
@@ -1328,7 +1336,7 @@ export default {};
     width: 350px;
     height: 400px;
     position: absolute;
-    bottom: -14px;
+    bottom: -0px;
     right: 0px;
   }
   .roadDiv {
@@ -1442,10 +1450,11 @@ export default {};
   .allTraitsDiv {
     height: 70px;
     width: 290px;
-    top: 400px;
+    top: 440px;
   }
   .allTraits {
-    font-size: 32px;
+    position: initial;
+    font-size: 24px;
     top: 16px;
   }
   .company {
