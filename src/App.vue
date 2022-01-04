@@ -4,8 +4,8 @@
     <div class="textWrapper">
       <h1 class="welcome">WELCOME!</h1>
       <h1 class="firstTxt">
-        Our mission here at the academy is simple: take 10,000 of the smothest
-        brained apes. Put them all in one location and let the Mayhem ensue.
+        Our mission here at the academy is simple: take 10,000 of the smothest brained apes. Put
+        them all in one location and let the Mayhem ensue.
       </h1>
     </div>
     <div class="bueyBlueDiv">
@@ -15,27 +15,30 @@
       <div class="utility">
         <div class="utilitytext">
           <h1 class="titleUtility">UTILITY & ROADMAP</h1>
+          <br />
           <p class="pUtility">
-            Minting a Degenerate Ape acts as your enrollment to the most
-            prestigious Academy apes have ever built. While you`re a student,
-            you will have ccess to all that the academy has offe3r currently,
-            and in the future.
+            Minting a Degenerate Ape acts as your enrollment to the most prestigious Academy apes
+            have ever built. While you`re a student, you will have ccess to all that the academy has
+            offe3r currently, and in the future.
+            <br />
+            Access to tje academy means more than just bragging right to those uneducated, less
+            sophisticated apes. We have made it oyr goal to make sure utilityis always offered to
+            all our students. This utility will be modest at first but will expand over time as we
+            continue to build.
+            <br />
+            We are building the academy not just for you, but also with you. Click below to see our
+            roadmap for the near and longer-term future.
+            <br />
+            We are building the academy not just for you, but also with you. Click below to see our
+            roadmap for the near and longer-term future.
+            <br />
+            We hope you have your crayons ready.
           </p>
-          <p class="pUtility">
-            Access to tje academy means more than just bragging right to those
-            uneducated, less sophisticated apes. We have made it oyr goal to
-            make sure utilityis always offered to all our students. This utility
-            will be modest at first but will expand over time as we continue to
-            build.
-          </p>
-          <p class="pUtility">
-            We are building the academy not just for you, but also with you.
-            Click below to see our roadmap for the near and longer-term future.
-          </p>
-          <p class="pUtility">We hope you have your crayons ready.</p>
+          <br />
+          <br />
           <h1 class="roadUtility">ROADMAP</h1>
         </div>
-        <img :src="require('@/assets/Buey_Golden.svg')" class="bueyGolden" />
+        <!-- <img :src="require('@/assets/Buey_Golden.svg')" class="bueyGolden" /> -->
       </div>
     </div>
     <div class="roadDiv">
@@ -45,33 +48,33 @@
         <div class="percentage">
           <h1 class="titlePercentage">70%</h1>
           <p class="textPercentage">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam id
-            leo in vitae turpis massa sed elementum tempus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Quam id leo in vitae turpis massa sed
+            elementum tempus.
           </p>
         </div>
         <div class="percentage1">
           <h1 class="titlePercentage">50%</h1>
           <p class="textPercentage">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam id
-            leo in vitae turpis massa sed elementum tempus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Quam id leo in vitae turpis massa sed
+            elementum tempus.
           </p>
         </div>
         <div class="percentage2">
           <h1 class="titlePercentage">90%</h1>
           <p class="textPercentage">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam id
-            leo in vitae turpis massa sed elementum tempus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Quam id leo in vitae turpis massa sed
+            elementum tempus.
           </p>
         </div>
         <div class="percentage3">
           <h1 class="titlePercentage">100%</h1>
           <p class="textPercentage">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Quam id
-            leo in vitae turpis massa sed elementum tempus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Quam id leo in vitae turpis massa sed
+            elementum tempus.
           </p>
         </div>
       </div>
@@ -82,9 +85,8 @@
       <div class="textRarity">
         <h1 class="titleRarity">TRAIT RARITY</h1>
         <p class="pRarity">
-          All apes are equal, but some apes are more equal than others. That's
-          why we've established a trait rarity system to tell which of our
-          students are likely destinated for greatness.
+          All apes are equal, but some apes are more equal than others. That's why we've established
+          a trait rarity system to tell which of our students are likely destinated for greatness.
         </p>
       </div>
       <div class="bueyTrait">
@@ -102,10 +104,10 @@
         </div>
         <div class="bueyRare">
           <div class="bueyRareM">
-            <img
+            <!-- <img
               :src="require('@/assets/Buey_Snake.svg')"
               class="bueyRarity1"
-            />
+            /> -->
           </div>
           <h1 class="titleBueyRarity">RARE</h1>
         </div>
@@ -117,10 +119,7 @@
         </div>
         <div class="bueyMythic">
           <div class="bueyMythicM">
-            <img
-              :src="require('@/assets/Buey_White.svg')"
-              class="bueyRarity1"
-            />
+            <img :src="require('@/assets/Buey_White.svg')" class="bueyRarity1" />
           </div>
           <h1 class="titleBueyRarity">MYTHIC</h1>
         </div>
@@ -205,24 +204,23 @@ export default {};
 .utility {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: row;
   position: relative;
   top: -40px;
-  height: 220px;
+  height: 280px;
   width: 76%;
   max-width: 700px;
   background: rgb(117, 66, 169);
-  background: linear-gradient(
-    180deg,
-    rgba(117, 66, 169, 1) 23%,
-    rgba(51, 3, 99, 1) 100%
-  );
+  background: linear-gradient(180deg, rgba(117, 66, 169, 1) 23%, rgba(51, 3, 99, 1) 100%);
   border-radius: 15px;
   color: white;
   z-index: 9;
+  padding: 15px;
 }
 .utilitytext {
   display: flex;
+  padding: 20px;
   flex-direction: column;
   width: 55%;
   max-width: 400px;
@@ -243,6 +241,7 @@ export default {};
   font-size: 8px;
   margin-bottom: 10px;
   width: 105%;
+  line-height: 1.3;
 }
 .roadUtility {
   font-family: "Lazer84";
@@ -250,12 +249,11 @@ export default {};
   width: 80px;
   text-align: center;
   line-height: 20px;
-  position: absolute;
-  top: 190px;
-  left: 0px;
+  margin-top: 15px;
   font-size: 8px;
   background-color: indianred;
   border-radius: 5px;
+  cursor: pointer;
 }
 .bueyGolden {
   width: 160px;
@@ -297,6 +295,10 @@ export default {};
 }
 
 .percentage {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
   height: 85px;
   width: 160px;
   background: #230543;
@@ -306,30 +308,42 @@ export default {};
   left: 5px;
 }
 .percentage1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
   height: 85px;
   width: 160px;
   background: #230543;
   border-radius: 10px;
   position: relative;
   right: -150px;
-  top: 50px;
+  top: 40px;
 }
 .percentage2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
   height: 85px;
   width: 160px;
   background: #230543;
   border-radius: 10px;
   position: relative;
-  top: 250px;
+  top: 260px;
   right: 5px;
 }
 .percentage3 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
   height: 85px;
   width: 160px;
   background: #230543;
   border-radius: 10px;
   position: absolute;
-  top: 360px;
+  top: 375px;
   left: 5px;
 }
 .titlePercentage {
@@ -344,7 +358,7 @@ export default {};
 }
 .trait {
   position: absolute;
-  top: 950px;
+  top: 1095px;
   width: 100%;
 }
 .trait1 {
@@ -356,7 +370,7 @@ export default {};
   height: 200px;
   width: 100%;
   position: absolute;
-  top: 970px;
+  top: 1120px;
 }
 .textRarity {
   display: flex;
@@ -565,6 +579,9 @@ export default {};
   }
 }
 @media (min-width: 515px) {
+  .utility {
+    padding: 0px;
+  }
   .bueyTrait {
     top: 110px;
   }
@@ -708,10 +725,10 @@ export default {};
     font-size: 13px;
   }
   .trait {
-    top: 1150px;
+    top: 1240px;
   }
   .rarity {
-    top: 1210px;
+    top: 1310px;
   }
   .textRarity {
     width: 300px;
@@ -761,10 +778,14 @@ export default {};
   }
 }
 @media (min-width: 820px) {
+  .roadUtility {
+    margin-top: 30px;
+  }
   .road {
     width: 425px;
     left: 50px;
   }
+
   .rarity {
     top: 1250px;
   }
@@ -882,6 +903,7 @@ export default {};
     height: 270px;
     width: 65%;
     max-width: 800px;
+    padding: 35px;
   }
   .utilitytext {
     display: flex;
@@ -890,6 +912,7 @@ export default {};
     max-width: 10000px;
     position: absolute;
     left: 10px;
+    padding: 20px;
   }
   .titleUtility {
     position: relative;
@@ -913,6 +936,8 @@ export default {};
     left: 0px;
     font-size: 10px;
     border-radius: 5px;
+    margin-top: 10px;
+    margin-top: 20px;
   }
   .bueyGolden {
     width: 250px;
@@ -956,10 +981,10 @@ export default {};
     left: 55px;
   }
   .trait {
-    top: 1300px;
+    top: 1455px;
   }
   .rarity {
-    top: 1390px;
+    top: 1590px;
   }
   .titleRarity {
     font-size: 2.8vw;
@@ -1213,11 +1238,11 @@ export default {};
   .trait1 {
     display: flex;
     position: absolute;
-    top: 1520px;
+    top: 1620px;
     width: 100%;
   }
   .rarity {
-    top: 1600px;
+    top: 1700px;
   }
   .titleRarity {
     font-size: 2.8vw;
@@ -1335,11 +1360,11 @@ export default {};
   .trait1 {
     display: flex;
     position: absolute;
-    top: 1800px;
+    top: 2000px;
     width: 100%;
   }
   .rarity {
-    top: 1900px;
+    top: 2100px;
   }
   .titleRarity {
     font-size: 2.8vw;
