@@ -160,8 +160,8 @@ export default {};
 .wrap {
   width: 100%;
   color: white;
-  height: 4000px;
-  background: #0f003c;
+  /* height: 4000px; */
+  background: #1b0139;
   display: flex;
   flex-direction: column;
 }
@@ -169,6 +169,7 @@ export default {};
   margin-top: 120px;
   width: 100%;
   height: 160px;
+  visibility: hidden;
 }
 .textWrapper {
   display: flex;
@@ -178,7 +179,7 @@ export default {};
   width: 100%;
   font-family: "Lazer84";
   position: absolute;
-  top: 55px;
+  top: 75px;
   text-align: center;
   font-size: 30px;
 }
@@ -186,7 +187,7 @@ export default {};
   width: 80%;
   font-size: 11px;
   position: absolute;
-  top: 105px;
+  top: 125px;
   text-align: center;
 }
 .bueyBlueDiv {
@@ -197,7 +198,7 @@ export default {};
   width: 140px;
   max-width: 160px;
   position: absolute;
-  top: 120px;
+  top: 135px;
 }
 .utilityDiv {
   display: flex;
@@ -880,7 +881,7 @@ export default {};
 @media (min-width: 1024px) {
   .welcome {
     position: absolute;
-    top: 60px;
+    top: 90px;
     text-align: center;
     font-size: 50px;
   }
@@ -888,7 +889,7 @@ export default {};
     width: 70%;
     font-size: 18px;
     position: absolute;
-    top: 130px;
+    top: 165px;
     text-align: center;
   }
   .heroBg {
@@ -900,7 +901,7 @@ export default {};
     width: 180px;
     max-width: 200px;
     position: absolute;
-    top: 155px;
+    top: 180px;
   }
   .utility {
     display: flex;
@@ -1122,7 +1123,7 @@ export default {};
 @media (min-width: 1440px) {
   .welcome {
     position: absolute;
-    top: 65px;
+    top: 100px;
     text-align: center;
     font-size: 50px;
   }
@@ -1130,7 +1131,7 @@ export default {};
     width: 60%;
     font-size: 20px;
     position: absolute;
-    top: 140px;
+    top: 170px;
     text-align: center;
   }
   .heroBg {
@@ -1142,7 +1143,7 @@ export default {};
     width: 225px;
     max-width: 225px;
     position: absolute;
-    top: 175px;
+    top: 190px;
   }
   .utility {
     display: flex;
