@@ -3,10 +3,7 @@
     <img :src="require('@/assets/Hero.jpeg')" class="heroBg" />
     <div class="textWrapper">
       <h1 class="welcome">WELCOME!</h1>
-      <h1 class="firstTxt">
-        Our mission here at the academy is simple: take 10,000 of the smothest brained apes. Put
-        them all in one location and let the Mayhem ensue.
-      </h1>
+      <h1 class="firstTxt">8869 Unique digital collectibles living on the Solana Blockchain</h1>
     </div>
     <div class="bueyBlueDiv">
       <img :src="require('@/assets/Buey_Blue.svg')" class="bueyBlue" />
@@ -17,64 +14,59 @@
           <h1 class="titleUtility">UTILITY & ROADMAP</h1>
           <br />
           <p class="pUtility">
-            Minting a Degenerate Ape acts as your enrollment to the most prestigious Academy apes
-            have ever built. While you`re a student, you will have ccess to all that the academy has
-            offe3r currently, and in the future.
+            Having an Ox is your way to sign up for the most prestigious Squad ever built. As long
+            as you’re part, you’ll have access to everything the squad has to offer.
+
             <br />
-            Access to tje academy means more than just bragging right to those uneducated, less
-            sophisticated apes. We have made it oyr goal to make sure utilityis always offered to
-            all our students. This utility will be modest at first but will expand over time as we
-            continue to build.
+            Access to the Squad means more than bragging about the rights of those scary Oxs who
+            seem to have traveled back in time. Our goal is to ensure that usefulness is always
+            offered to all our members. This utility will be modest at first, but will expand over
+            time as we continue to build.
             <br />
-            We are building the academy not just for you, but also with you. Click below to see our
-            roadmap for the near and longer-term future.
+            We’re building the squad not only for you but with you as well. Click below to view our
+            roadmap for the near and long-term future.
             <br />
-            We are building the academy not just for you, but also with you. Click below to see our
-            roadmap for the near and longer-term future.
-            <br />
-            We hope you have your crayons ready.
+            We hope you have your weapons ready.
           </p>
           <br />
           <br />
-          <h1 class="roadUtility">ROADMAP</h1>
+          <a href="#roadmap" class="link-to-roadmap">
+            <h1 class="roadUtility">ROADMAP</h1>
+          </a>
         </div>
         <img :src="require('@/assets/Buey_Golden(1).png')" class="bueyGolden" />
       </div>
     </div>
-    <div class="roadDiv">
-      <h1 class="roadmap">ROADMAP</h1>
+    <div class="roadDiv" id="roadDiv">
+      <h1 class="roadmap" id="roadmap">ROADMAP</h1>
       <div class="roadDiv1">
         <img :src="require('@/assets/Road.svg')" class="road" />
         <div class="percentage">
-          <h1 class="titlePercentage">70%</h1>
+          <h1 class="titlePercentage">33%</h1>
           <p class="textPercentage">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Quam id leo in vitae turpis massa sed
-            elementum tempus.
+            $ OXSQ Token: The $ OXSQ token will be created and holders will get airdropped their
+            tokens. You will have to have it delisted, holders will be airdropped 20 $ OXSQ weekly.
           </p>
         </div>
         <div class="percentage1">
-          <h1 class="titlePercentage">50%</h1>
+          <h1 class="titlePercentage">0%</h1>
           <p class="textPercentage">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Quam id leo in vitae turpis massa sed
-            elementum tempus.
+            Launch all 8,869 algorithmically generated Oxs to our awesome community.
           </p>
         </div>
         <div class="percentage2">
-          <h1 class="titlePercentage">90%</h1>
+          <h1 class="titlePercentage">66%</h1>
           <p class="textPercentage">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Quam id leo in vitae turpis massa sed
-            elementum tempus.
+            Ox DAO: Our DAO will be created, only consisting of Ox Squad holders. In the DAO, we
+            will offer a multitude of discord bots to assist such as Floor price detector and
+            MagicEden listing detector.
           </p>
         </div>
         <div class="percentage3">
           <h1 class="titlePercentage">100%</h1>
           <p class="textPercentage">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Quam id leo in vitae turpis massa sed
-            elementum tempus.
+            Holders will have access to the Ox Squad exclusive Club and Merch Store where they can
+            order their own Hoodie! There will only ever be 8869 Hoodies ever made.
           </p>
         </div>
       </div>
@@ -85,8 +77,8 @@
       <div class="textRarity">
         <h1 class="titleRarity">TRAIT RARITY</h1>
         <p class="pRarity">
-          All apes are equal, but some apes are more equal than others. That's why we've established
-          a trait rarity system to tell which of our students are likely destinated for greatness.
+          We've established a trait rarity system to tell which of our members are likely destinated
+          for greatness.
         </p>
       </div>
       <div class="bueyTrait">
@@ -108,6 +100,9 @@
               :src="require('@/assets/Buey_Snake.svg')"
               class="bueyRarity1"
             /> -->
+            <div class="bueyRareM">
+              <img :src="require('@/assets/Buey_White.svg')" class="bueyRarity1" />
+            </div>
           </div>
           <h1 class="titleBueyRarity">RARE</h1>
         </div>
@@ -127,12 +122,16 @@
           <h1 class="allTraits">VIEW ALL TRAITS</h1>
         </div>
         <div class="icons">
-          <div class="icoDs">
-            <img :src="require('@/assets/Ico_Discord.svg')" class="icons1" />
-          </div>
-          <div class="icoTwitter">
-            <img :src="require('@/assets/Ico_Twitter.svg')" class="icons1" />
-          </div>
+          <a href="https://t.co/cDFwrHuUt0" target="_blank">
+            <div class="icoDs">
+              <img :src="require('@/assets/Ico_Discord.svg')" class="icons1" />
+            </div>
+          </a>
+          <a href="https://twitter.com/TheOxSquadNFT" target="_blank">
+            <div class="icoTwitter">
+              <img :src="require('@/assets/Ico_Twitter.svg')" class="icons1" />
+            </div>
+          </a>
           <div class="icoOpenSea">
             <img :src="require('@/assets/Ico_OpenSea.svg')" class="icons1" />
           </div>
@@ -153,6 +152,10 @@ export default {};
 @font-face {
   font-family: "Lazer84";
   src: url("assets/Lazer84.ttf");
+}
+.link-to-roadmap {
+  text-decoration: none;
+  color: inherit;
 }
 .wrap {
   width: 100%;
@@ -175,7 +178,7 @@ export default {};
   width: 100%;
   font-family: "Lazer84";
   position: absolute;
-  top: 35px;
+  top: 55px;
   text-align: center;
   font-size: 30px;
 }
@@ -183,7 +186,7 @@ export default {};
   width: 80%;
   font-size: 11px;
   position: absolute;
-  top: 75px;
+  top: 105px;
   text-align: center;
 }
 .bueyBlueDiv {
@@ -194,7 +197,7 @@ export default {};
   width: 140px;
   max-width: 160px;
   position: absolute;
-  top: 100px;
+  top: 120px;
 }
 .utilityDiv {
   display: flex;
@@ -237,7 +240,7 @@ export default {};
   position: relative;
   top: 15px;
   left: 0px;
-  font-size: 8px;
+  font-size: 9px;
   margin-bottom: 10px;
   width: 105%;
   line-height: 1.3;
@@ -309,7 +312,6 @@ export default {};
 }
 .percentage1 {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   padding: 10px;
   height: 85px;
@@ -351,6 +353,7 @@ export default {};
   font-size: 15px;
   padding-top: 5px;
   padding-left: 8px;
+  margin-bottom: 12px;
 }
 .textPercentage {
   font-size: 9px;
@@ -877,7 +880,7 @@ export default {};
 @media (min-width: 1024px) {
   .welcome {
     position: absolute;
-    top: 40px;
+    top: 60px;
     text-align: center;
     font-size: 50px;
   }
@@ -885,7 +888,7 @@ export default {};
     width: 70%;
     font-size: 18px;
     position: absolute;
-    top: 100px;
+    top: 130px;
     text-align: center;
   }
   .heroBg {
@@ -897,7 +900,7 @@ export default {};
     width: 180px;
     max-width: 200px;
     position: absolute;
-    top: 130px;
+    top: 155px;
   }
   .utility {
     display: flex;
@@ -929,7 +932,7 @@ export default {};
     position: relative;
     top: 15px;
     left: 0px;
-    font-size: 13px;
+    font-size: 14px;
     margin-bottom: 10px;
     width: 105%;
   }
@@ -1119,7 +1122,7 @@ export default {};
 @media (min-width: 1440px) {
   .welcome {
     position: absolute;
-    top: 40px;
+    top: 65px;
     text-align: center;
     font-size: 50px;
   }
@@ -1127,7 +1130,7 @@ export default {};
     width: 60%;
     font-size: 20px;
     position: absolute;
-    top: 100px;
+    top: 140px;
     text-align: center;
   }
   .heroBg {
@@ -1139,7 +1142,7 @@ export default {};
     width: 225px;
     max-width: 225px;
     position: absolute;
-    top: 145px;
+    top: 175px;
   }
   .utility {
     display: flex;
@@ -1172,6 +1175,7 @@ export default {};
     font-size: 13px;
     margin-bottom: 10px;
     width: 105%;
+    line-height: 1.5;
   }
   .roadUtility {
     height: 30px;
@@ -1271,7 +1275,7 @@ export default {};
 @media (min-width: 1920px) {
   .welcome {
     position: absolute;
-    top: 50px;
+    top: 100px;
     text-align: center;
     font-size: 70px;
   }
@@ -1279,7 +1283,7 @@ export default {};
     width: 60%;
     font-size: 25px;
     position: absolute;
-    top: 140px;
+    top: 200px;
     text-align: center;
   }
   .heroBg {
@@ -1291,7 +1295,7 @@ export default {};
     width: 270px;
     max-width: 270px;
     position: absolute;
-    top: 190px;
+    top: 230px;
   }
   .utility {
     display: flex;
@@ -1324,6 +1328,7 @@ export default {};
     font-size: 18px;
     margin-bottom: 10px;
     width: 105%;
+    line-height: 1.6;
   }
   .roadUtility {
     height: 40px;
