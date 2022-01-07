@@ -1,5 +1,10 @@
 <template>
   <div class="wrap">
+    <div class="mint-wrap">
+      <button class="mint-button">
+        <h1>mint</h1>
+      </button>
+    </div>
     <img :src="require('@/assets/Hero.jpeg')" class="heroBg" />
     <div class="textWrapper">
       <h1 class="welcome">WELCOME!</h1>
@@ -153,6 +158,29 @@ export default {};
   font-family: "Lazer84";
   src: url("assets/Lazer84.ttf");
 }
+.mint-wrap {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.mint-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lazer84";
+  height: 20px;
+  width: 70px;
+  font-size: 6px;
+  background: rgb(244, 78, 107);
+  background: linear-gradient(90deg, rgba(244, 78, 107, 1) 2%, rgba(241, 153, 82, 1) 40%);
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+  margin-right: 50px;
+  padding: 10px;
+  border-color: #1b0139;
+}
 .link-to-roadmap {
   text-decoration: none;
   color: inherit;
@@ -198,7 +226,7 @@ export default {};
   width: 140px;
   max-width: 160px;
   position: absolute;
-  top: 135px;
+  top: 150px;
 }
 .utilityDiv {
   display: flex;
@@ -787,6 +815,11 @@ export default {};
   }
 }
 @media (min-width: 820px) {
+  .mint-button {
+    width: 100px;
+    height: 30px;
+    margin-right: 150px;
+  }
   .roadUtility {
     margin-top: 30px;
   }
@@ -901,7 +934,7 @@ export default {};
     width: 180px;
     max-width: 200px;
     position: absolute;
-    top: 180px;
+    top: 190px;
   }
   .utility {
     display: flex;
@@ -1043,6 +1076,11 @@ export default {};
   }
 }
 @media (min-width: 1200px) {
+  .mint-button {
+    width: 150px;
+    height: 40px;
+    margin-right: 230px;
+  }
   .bueyTrait {
     top: 180px;
   }
@@ -1121,6 +1159,12 @@ export default {};
   }
 }
 @media (min-width: 1440px) {
+  .mint-button {
+    width: 170px;
+    height: 45px;
+    margin-right: 300px;
+    font-size: 10px;
+  }
   .welcome {
     position: absolute;
     top: 100px;
@@ -1143,7 +1187,7 @@ export default {};
     width: 225px;
     max-width: 225px;
     position: absolute;
-    top: 190px;
+    top: 220px;
   }
   .utility {
     display: flex;
@@ -1274,9 +1318,17 @@ export default {};
   }
 }
 @media (min-width: 1920px) {
+  .mint-button {
+    width: 170px;
+    height: 45px;
+    margin-right: 300px;
+    font-size: 10px;
+    position: relative;
+    top: 30px;
+  }
   .welcome {
     position: absolute;
-    top: 100px;
+    top: 120px;
     text-align: center;
     font-size: 70px;
   }
@@ -1284,7 +1336,7 @@ export default {};
     width: 60%;
     font-size: 25px;
     position: absolute;
-    top: 200px;
+    top: 220px;
     text-align: center;
   }
   .heroBg {
@@ -1296,7 +1348,7 @@ export default {};
     width: 270px;
     max-width: 270px;
     position: absolute;
-    top: 230px;
+    top: 290px;
   }
   .utility {
     display: flex;
