@@ -523,7 +523,7 @@ export default {};
   width: 60px;
   background-color: rgb(255, 255, 255, 0.5);
   backdrop-filter: blur(20px);
-  border-radius: 25px;
+  border-radius: 13px;
   position: absolute;
   left: 310px;
 }
@@ -840,6 +840,9 @@ export default {};
   }
 }
 @media (min-width: 820px) {
+  .bueyMythic {
+    border-radius: 25px;
+  }
   .mint-button {
     width: 100px;
     height: 30px;
