@@ -89,39 +89,35 @@
       <div class="bueyTrait">
         <div class="bueyCommon">
           <div class="bueyCommonM">
-            <img :src="require('@/assets/Buey_Blue.svg')" class="bueyRarity" />
+            <img :src="require('@/assets/Buey_Common.png')" class="bueyRarity" />
           </div>
           <h1 class="titleBueyRarity">COMMON</h1>
         </div>
         <div class="bueyUncommon">
           <div class="bueyUncommonM">
-            <img :src="require('@/assets/Buey_Gray.svg')" class="bueyRarity1" />
+            <img :src="require('@/assets/Buey_White_png.png')" class="bueyRarity" />
           </div>
-          <h1 class="titleBueyRarity">UNCOMMON</h1>
+          <h1 class="titleBueyRarity">WHITE</h1>
         </div>
         <div class="bueyRare">
           <div class="bueyRareM">
-            <!-- <img
-              :src="require('@/assets/Buey_Snake.svg')"
-              class="bueyRarity1"
-            /> -->
             <div class="bueyRareM">
-              <img :src="require('@/assets/Buey_White.svg')" class="bueyRarity1" />
+              <img :src="require('@/assets/Buey_Dorado_png.png')" class="bueyRarity" />
             </div>
           </div>
-          <h1 class="titleBueyRarity">RARE</h1>
+          <h1 class="titleBueyRarity">GOLDEN</h1>
         </div>
         <div class="bueySuperRare">
           <div class="bueySuperRareM">
-            <img :src="require('@/assets/Buey_Blue.svg')" class="bueyRarity" />
+            <img :src="require('@/assets/Buey_Zombie.png')" class="bueyRarity" />
           </div>
-          <h1 class="titleBueyRarity">SUPER RARE</h1>
+          <h1 class="titleBueyRarity">ZOMBIE</h1>
         </div>
         <div class="bueyMythic">
           <div class="bueyMythicM">
-            <img :src="require('@/assets/Buey_White.svg')" class="bueyRarity1" />
+            <img :src="require('@/assets/Buey_DarkMatter.png')" class="bueyRarity" />
           </div>
-          <h1 class="titleBueyRarity">MYTHIC</h1>
+          <h1 class="titleBueyRarityDark">DARK MATTER</h1>
         </div>
         <div class="allTraitsDiv">
           <h1 class="allTraits">VIEW ALL TRAITS</h1>
@@ -432,7 +428,10 @@ export default {};
   justify-content: center;
   height: 90px;
   width: 60px;
-  background-color: green;
+  /* background-color: green; */
+  background-color: rgb(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  border-radius: 25px;
   position: absolute;
   left: 30px;
 }
@@ -444,6 +443,7 @@ export default {};
   background-color: #a6b4ec;
   position: relative;
   top: 5px;
+  border-radius: 15px;
 }
 .bueyRarity {
   width: 55px;
@@ -462,7 +462,9 @@ export default {};
   justify-content: center;
   height: 90px;
   width: 60px;
-  background-color: green;
+  background-color: rgb(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  border-radius: 25px;
   position: absolute;
   left: 100px;
 }
@@ -474,13 +476,16 @@ export default {};
   background-color: #ffb4ff;
   position: relative;
   top: 5px;
+  border-radius: 15px;
 }
 .bueyRare {
   display: flex;
   justify-content: center;
   height: 90px;
   width: 60px;
-  background-color: green;
+  background-color: rgb(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  border-radius: 25px;
   position: absolute;
   left: 170px;
 }
@@ -490,13 +495,16 @@ export default {};
   background-color: #feddac;
   position: relative;
   top: 5px;
+  border-radius: 15px;
 }
 .bueySuperRare {
   display: flex;
   justify-content: center;
   height: 90px;
   width: 60px;
-  background-color: green;
+  background-color: rgb(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  border-radius: 25px;
   position: absolute;
   left: 240px;
 }
@@ -506,13 +514,16 @@ export default {};
   background-color: #ffabb6;
   position: relative;
   top: 5px;
+  border-radius: 15px;
 }
 .bueyMythic {
   display: flex;
   justify-content: center;
   height: 90px;
   width: 60px;
-  background-color: green;
+  background-color: rgb(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  border-radius: 25px;
   position: absolute;
   left: 310px;
 }
@@ -522,10 +533,17 @@ export default {};
   background-color: #b1ebf5;
   position: relative;
   top: 5px;
+  border-radius: 15px;
 }
 .titleBueyRarity {
   font-family: "Lazer84";
   font-size: 8px;
+  position: absolute;
+  top: 73px;
+}
+.titleBueyRarityDark {
+  font-family: "Lazer84";
+  font-size: 7px;
   position: absolute;
   top: 73px;
 }
@@ -539,6 +557,7 @@ export default {};
   width: 85px;
   position: absolute;
   top: 110px;
+  cursor: pointer;
 }
 .allTraits {
   font-family: "Lazer84";
@@ -672,6 +691,12 @@ export default {};
   }
   .titleBueyRarity {
     font-size: 10px;
+    position: absolute;
+    top: 80px;
+  }
+  .titleBueyRarityDark {
+    font-family: "Lazer84";
+    font-size: 9px;
     position: absolute;
     top: 80px;
   }
@@ -900,6 +925,12 @@ export default {};
   }
   .titleBueyRarity {
     font-size: 18px;
+    position: absolute;
+    top: 150px;
+  }
+  .titleBueyRarityDark {
+    font-family: "Lazer84";
+    font-size: 16px;
     position: absolute;
     top: 150px;
   }
@@ -1145,6 +1176,12 @@ export default {};
   }
   .titleBueyRarity {
     font-size: 25px;
+    position: absolute;
+    top: 210px;
+  }
+  .titleBueyRarityDark {
+    font-family: "Lazer84";
+    font-size: 22px;
     position: absolute;
     top: 210px;
   }
@@ -1502,6 +1539,12 @@ export default {};
   }
   .titleBueyRarity {
     font-size: 35px;
+    position: absolute;
+    top: 290px;
+  }
+  .titleBueyRarityDark {
+    font-family: "Lazer84";
+    font-size: 30px;
     position: absolute;
     top: 290px;
   }
