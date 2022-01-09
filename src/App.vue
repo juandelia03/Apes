@@ -143,6 +143,7 @@
 </template>
 
 <script>
+import "animate.css";
 export default {};
 </script>
 
@@ -206,6 +207,9 @@ export default {};
   top: 75px;
   text-align: center;
   font-size: 30px;
+  animation: shakeY;
+  animation-iteration-count: infinite;
+  animation-duration: 18s;
 }
 .firstTxt {
   width: 80%;
