@@ -119,7 +119,10 @@
           </div>
           <h1 class="titleBueyRarityDark">DARK MATTER</h1>
         </div>
-        <a href="./Oxscollection.pdf" download>
+        <a
+          href="https://drive.google.com/file/d/1gvTStMybtsC3g2iik23i1-A6IVokJ_xu/view"
+          target="_blank"
+        >
           <div class="allTraitsDiv">
             <h1 class="allTraits">VIEW ALL TRAITS</h1>
           </div>
@@ -147,8 +150,13 @@
 <script>
 import "animate.css";
 import Swal from "sweetalert2";
-// import PDF from "./Oxscollection.pdf";
+// const foto = require("./assets/Oxscollection (3).pdf");
 export default {
+  data() {
+    return {
+      // foto: require("@/assets/Oxscollection.docx"),
+    };
+  },
   methods: {
     alert() {
       Swal.fire({
