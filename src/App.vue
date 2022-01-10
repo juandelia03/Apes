@@ -324,7 +324,6 @@ export default {
   position: relative;
   background: #1b0139;
   top: -220px;
-  height: 2000px;
 }
 .roadDiv1 {
   display: flex;
@@ -813,10 +812,10 @@ export default {
     font-size: 13px;
   }
   .trait {
-    top: 1240px;
+    top: 1340px;
   }
   .rarity {
-    top: 1310px;
+    top: 1410px;
   }
   .textRarity {
     width: 300px;
@@ -1364,7 +1363,7 @@ export default {
   .trait1 {
     display: flex;
     position: absolute;
-    top: 1620px;
+    top: 1720px;
     width: 100%;
   }
   .rarity {
