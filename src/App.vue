@@ -139,7 +139,7 @@
             </div>
           </a>
           <div class="icoOpenSea">
-            <img :src="require('@/assets/Ico_OpenSea.svg')" class="icons1" />
+            <!-- <img :src="require('@/assets/Ico_OpenSea.svg')" class="icons1" /> -->
           </div>
         </div>
       </div>
