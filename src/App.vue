@@ -120,7 +120,7 @@
           <h1 class="titleBueyRarityDark">DARK MATTER</h1>
         </div>
         <a
-          href="https://drive.google.com/file/d/1gvTStMybtsC3g2iik23i1-A6IVokJ_xu/view"
+          href="https://drive.google.com/file/d/1o8oemW3dQ2Px6UBwUEDerEnevYDFgPYr/view?usp=sharing"
           target="_blank"
         >
           <div class="allTraitsDiv">
