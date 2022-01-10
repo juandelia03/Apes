@@ -1,7 +1,7 @@
 <template>
   <div class="wrap">
     <div class="mint-wrap">
-      <button class="mint-button">
+      <button class="mint-button" @click="alert">
         <h1>mint</h1>
       </button>
     </div>
@@ -144,7 +144,20 @@
 
 <script>
 import "animate.css";
-export default {};
+import Swal from "sweetalert2";
+
+export default {
+  methods: {
+    alert() {
+      Swal.fire({
+        title: "Error!",
+        text: "Minting will be available on January the 10th 21UTC",
+        icon: "info",
+        confirmButtonText: "Ok",
+      });
+    },
+  },
+};
 </script>
 
 <style>
