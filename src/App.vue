@@ -49,8 +49,8 @@
         <div class="percentage">
           <h1 class="titlePercentage">33%</h1>
           <p class="textPercentage">
-            $ OXSQ Token: The $ OXSQ token will be created and holders will get airdropped their
-            tokens. You will have to have it delisted, holders will be airdropped 20 $ OXSQ weekly.
+            $OXSQ Token: The $OXSQ token will be created and holders will get airdropped their
+            tokens. You will need to have it delisted, holders will be airdropped 20 $OXSQ weekly.
           </p>
         </div>
         <div class="percentage1">
@@ -71,7 +71,7 @@
           <h1 class="titlePercentage">100%</h1>
           <p class="textPercentage">
             Holders will have access to the Ox Squad exclusive Club and Merch Store where they can
-            order their own Hoodie! There will only ever be 8869 Hoodies ever made.
+            order their own Hoodie! There will be only 8869 Hoodies.
           </p>
         </div>
       </div>
