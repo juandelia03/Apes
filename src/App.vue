@@ -119,9 +119,11 @@
           </div>
           <h1 class="titleBueyRarityDark">DARK MATTER</h1>
         </div>
-        <div class="allTraitsDiv">
-          <h1 class="allTraits">VIEW ALL TRAITS</h1>
-        </div>
+        <a href="./Oxscollection.pdf" download>
+          <div class="allTraitsDiv">
+            <h1 class="allTraits">VIEW ALL TRAITS</h1>
+          </div>
+        </a>
         <div class="icons">
           <a href="https://t.co/cDFwrHuUt0" target="_blank">
             <div class="icoDs">
@@ -145,7 +147,7 @@
 <script>
 import "animate.css";
 import Swal from "sweetalert2";
-
+// import PDF from "./Oxscollection.pdf";
 export default {
   methods: {
     alert() {
@@ -575,12 +577,14 @@ export default {
   position: absolute;
   top: 110px;
   cursor: pointer;
+  text-decoration: none;
 }
 .allTraits {
   font-family: "Lazer84";
   font-size: 8px;
   position: absolute;
   top: 5px;
+  color: white;
 }
 .company {
   font-size: 5px;
