@@ -1,9 +1,11 @@
 <template>
   <div class="wrap">
     <div class="mint-wrap">
-      <button class="mint-button" @click="alert">
-        <h1>mint</h1>
-      </button>
+      <a href="https://mint-oxsquadnft.com/" target="_blank">
+        <button class="mint-button">
+          <h1>mint</h1>
+        </button>
+      </a>
     </div>
     <img :src="require('@/assets/Hero.jpeg')" class="heroBg" />
     <div class="textWrapper">
@@ -149,7 +151,6 @@
 
 <script>
 import "animate.css";
-import Swal from "sweetalert2";
 // const foto = require("./assets/Oxscollection (3).pdf");
 export default {
   data() {
@@ -157,16 +158,7 @@ export default {
       // foto: require("@/assets/Oxscollection.docx"),
     };
   },
-  methods: {
-    alert() {
-      Swal.fire({
-        title: "Error!",
-        text: "Minting will be available on January the 10th 21UTC",
-        icon: "info",
-        confirmButtonText: "Ok",
-      });
-    },
-  },
+  methods: {},
 };
 </script>
 
@@ -183,6 +175,7 @@ export default {
   width: 100%;
   display: flex;
   justify-content: flex-end;
+  text-decoration: none;
 }
 .mint-button {
   display: flex;
