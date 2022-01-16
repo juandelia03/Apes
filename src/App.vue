@@ -10,7 +10,7 @@
     <img :src="require('@/assets/Hero.jpeg')" class="heroBg" />
     <div class="textWrapper">
       <h1 class="welcome">WELCOME!</h1>
-      <h1 class="firstTxt">8869 Unique digital collectibles living on the Solana Blockchain</h1>
+      <h1 class="firstTxt">4469 Unique digital collectibles living on the Solana Blockchain</h1>
     </div>
     <div class="bueyBlueDiv">
       <img :src="require('@/assets/Buey_Blue.svg')" class="bueyBlue" />
