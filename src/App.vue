@@ -73,7 +73,7 @@
           <h1 class="titlePercentage">100%</h1>
           <p class="textPercentage">
             Holders will have access to the Ox Squad exclusive Club and Merch Store where they can
-            order their own Hoodie! There will be only 8869 Hoodies.
+            order their own Hoodie! There will be only 4469 Hoodies.
           </p>
         </div>
       </div>
